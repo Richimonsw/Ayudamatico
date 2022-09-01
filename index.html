@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayudamático</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <style>
+        #ultimo + div{
+        visibility: hidden;
+        }
+        body{
+        margin: 0;
+        padding: 0;
+        background: url(../img/fondo2.jpg);   
+        background-size: cover;
+        font-family: sans-serif;
+      }
+      .card{
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    overflow: hidden;
+    width: 15rem;
+    backdrop-filter: blur(1rem);
+    background-color: rgba(255, 255, 255, 0.060);
+    border: .1rem solid rgba(255, 255, 255, 0.18);
+}
+
+.card p{
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+.card h1{
+    letter-spacing: .1rem;
+    margin: 1rem 0;
+
+}
+
+    </style>
+</head> 
+<body>
+    <div class="container">
+        <div class="position-absolute top-50 start-50 translate-middle opacity-75">
+            <div class="card text-center text-bg-dark mb-3 border-dark mb-3 " style="width: 35rem;">
+                <div class="card-body">
+                    <figure class="text-center">
+                        <figcaption class="blockquote">
+                            <strong>
+                                <p >Carrera contabilidad y Auditoría</p>
+                            <p >Departamento de Ciencias Económicas</p>
+                            <p >Administrativas y del Comercio (CEAC)</p>
+                            </strong>
+                            
+                        </figcaption>
+                        <blockquote class="blockquote">
+                            <h1 >MANUAL DE GESTIÓN DE</p>
+                            <h1 >CONTROL INTERNO</p>
+                            <h1 >PPR AYUDAMÁTICO</p>
+                        </blockquote>
+                        <figcaption class="blockquote">
+                            <p >Procesos Parroquiales Rurales</p>
+                        </figcaption>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" aria-describedby="basic-addon1">
+                          </div>
+                        <a href="./html/menu.html">
+                            <button type="button" class="btn btn-outline-primary">Empezar</button>
+                        </a>
+            
+                    </figure>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <div id="ultimo"></div>
+</body>
+</html>

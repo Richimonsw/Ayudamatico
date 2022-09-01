@@ -1,0 +1,1813 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayudamático</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <script src="/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+      #ultimo + div {
+        visibility: hidden;
+      }
+      body{
+        margin: 0;
+        padding: 0;
+        background: url(../img/fondo4.jpg);   
+        background-size: cover;
+        background-position: fluid;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-dark navbar-expand-lg"
+      style="background-color: rgb(9, 85, 133)"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">Ayudamático</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/html/menu.html"
+                >Diagramas</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <br />
+    <div class="container">
+      <strong>
+        <h1 class="card-title text-center display-2">MANUAL DE GESTIÓN</h1>
+        <h1 class="card-title text-center display-2">DE CONTROL INTERNO</h1>
+      </strong>
+    </div>
+    <br />
+
+    <div class="container">
+      <div >
+        <div class="row row-cols-1  row-cols-md-3 justify-content-md-center">
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body text-center ">
+                <strong>
+                  <h2 class="card-title text-center text-opacity-100">Información General</h2>
+                </strong>
+                
+              </div>
+              <div class="card-body ">
+                <div class="list-group">
+                  <a href="/html/AnexoControlInterno.html" type="button"
+                  class="btn btn-outline-primary"
+                  >
+              
+                  Elementos para la ejecución
+            </a>
+                  <br />
+                  <a href="/archivo/MATRIZ MECI.xlsx" type="button"
+                  class="btn btn-outline-primary" download="MATRIZ MECI.xlsx">
+                  Cuestionario de control interno
+                  </a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <br>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <h2 class="card-title text-center">Entorno de control</h2>
+              <em>
+                <p>Normas de control interno 100</p>
+                <p>Normas Generales y 200 Ambiente de Control</p>
+              </em>
+            </div>
+            <div class="card-body">
+              <div class="list-group">
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ETICA"
+                >
+                  Código de Ética
+                </button>
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#indicadores"
+                >
+                  Aplicación de indicadores de gestión
+                </button>
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#DIFUSION"
+                >
+                  Difusión de normas de control interno
+                </button>
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#TRABAJO"
+                >
+                Estructura organizacional y funciones de puestos de trabajo
+                </button>
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#GAD"
+                >
+                  Flujo de actividades de la máxima autoridad del GAD
+                </button>
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#CONDUCTA"
+                >
+                  Líneas de conducta
+                </button>
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#capacitacion"
+                >
+                  Programas de capacitación
+                </button>
+                <br>
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#CUENTAS"
+                >
+                  Rendición de cuentas
+                </button>
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#POA"
+                >
+                Seguimiento y control al Plan Operativo Anual (POA)
+                </button>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-50">
+            <div class="card-body text-center">
+              <h2 class="card-title">Evaluación de riesgos</h2>
+              <em>
+                <p>Norma de control interno 300</p>
+                <p>Evaluación del Riesgo</p>
+              </em>
+            </div>
+            <div class="card-body text-center">
+              <div class="list-group">
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#riesgo"
+                >
+                  Administración del riesgo
+                </button>
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#mitigacion"
+                >
+                  Plan de mitigación de riesgos
+                </button>
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#activos"
+                >
+                  Compra de bienes y servicios
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 ">
+            <div class="card-body text-center">
+              <h2 class="card-title">Actividades de control</h2>
+              <em>
+                <p>Norma de control interno 400</p>
+                <p>Actividades de Control</p>
+              </em>
+            </div>
+            <div class="card-body text-center">
+              <div class="list-group">
+                
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#personal"
+                >
+                  Control del personal
+                </button>
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#bancarios"
+                >
+                  Proceso de conciliaciones bancarias
+                </button>
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#obligaciones"
+                >
+                  Cronograma de vencimiento de obligaciones
+                </button>
+                
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#autorizacion"
+                >
+                  Niveles de autorización
+                </button>
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#conservacion"
+                >
+                  Políticas de conservación de documentos
+                </button>
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#operaciones"
+                >
+                  Procedimiento del registro contable de las operaciones
+                </button>
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#supervicion"
+                >
+                  Supervisión de procesos
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card h-40">
+            <div class="card-body text-center">
+              <h2 class="card-title">Información y comunicación</h2>
+              <em>
+                <p>Norma de control interno 500</p>
+                <p>Información y comunicación</p>
+              </em>
+            </div>
+            <div class="card-body text-center">
+              <div class="list-group">
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#informacion"
+                >
+                  Acceso a la información
+                  
+                </button>
+                <br>
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#web"
+                >
+                  Comunicación a través de la página web
+                  
+                </button>
+                <br>
+                <a href="/html/AnexoClidadInformacion.html" type="button"
+                class="btn btn-outline-primary"
+                data-bs-target="#web"
+                >
+            
+            Control de calidad de la información
+          </a>
+          <br>
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#oficiales"
+                >
+                Canales de comunicación interna oficiales
+                  
+                </button>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card h-100 ">
+            <div class="card-body text-center">
+              <h2 class="card-title">Actividades de Supervisión</h2>
+              <em>
+                <p>Norma de control interno 600</p>
+                <p>Seguimiento</p>
+              </em>
+            </div>
+            <div class="card-body text-center">
+              <div class="list-group">
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#anteriores"
+                >
+                Seguimiento a evaluaciones anteriores
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="ETICA"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Código de Ética
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/FLUJOGRAMA CÓDIGO DE ÉTICA.png"
+              class="img"
+              width="2000"
+              alt="GAD"
+            />
+          </div>
+          <div class="modal-footer">
+            <a href="/html/AnexoCodigoEtica.html"
+            ><button type="button" class="btn btn-success">
+              Anexos
+            </button></a>
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="DIFUSION"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Difusión de normas de control interno
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/Difusión de las NCI.png"
+              class="img-fluid"
+              alt="GAD"
+            />
+          </div>
+          <div class="modal-footer">
+            <a href="/html/AnexoNormasControl.html"
+            ><button type="button" class="btn btn-success">
+              Anexos
+            </button></a>
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="TRABAJO"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Estructura organizacional y funciones de puestos de trabajo
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/trabajo1.jpg"
+              class="img-fluid"
+              alt="GAD"
+            />
+          </div>
+          <div class="modal-footer"> 
+            <a href="/html/AnexoFuncionesTrabajo.html"
+            ><button type="button" class="btn btn-success">
+              Anexos
+            </button></a>
+            
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="GAD"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Flujo de actividades de la máxima autoridad del GAD
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/Elaboracion del presupuesto participativo.png"
+              class="img"
+              width="2000"
+              alt="GAD"
+            />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#SubGAD"
+            >
+              Subproceso
+            </button>
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="SubGAD"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Subproceso
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/Elaboracion del presupuesto participativo_subproceso.png"
+              class="img-fluid"
+              alt="GAD"
+            />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="CONDUCTA"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Líneas de conducta
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/Flujograma de las líneas de conducta.png"
+              class="img-fluid"
+              alt="CONDUCTA"
+            />
+          </div>
+          <div class="modal-footer">
+            <a href="/html/AnexoLineasConduca.html"
+            ><button type="button" class="btn btn-success">
+              Anexos
+            </button></a>
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="capacitacion"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Programas de capacitación
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/FLUJOGRAMA_PROGRAMA DE CAPACITACIaN.png"
+              class="img-fluid"
+              alt="GAD"
+            />
+          </div>
+          <div class="modal-footer">
+            <a href="/archivo/ANEXO_FASES DEL PROGRAMA DE CAPACITACIaN.xlsx" class="btn btn-primary" download="ANEXO_FASES DEL PROGRAMA DE CAPACITACIÓN.xlsx">Descargar Anexo (XLSX)</a>
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="CUENTAS"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Rendición de cuentas
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/Flujograma Rendición de cuentas.png"
+              class="img"
+              width="2200"
+              alt="GAD"
+            />
+          </div>
+          <div class="modal-footer">
+            <a href="/html/AnexoRendicionCuentas.html"
+            ><button type="button" class="btn btn-success">
+              Anexos
+            </button></a>
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+    class="modal fade modal-dialog-scrollable"
+    id="POA"
+    data-bs-backdrop="static"
+    data-bs-keyboard="false"
+    tabindex="-1"
+    aria-labelledby="staticBackdropLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">
+            Seguimiento y control al Plan Operativo Anual (POA)
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <img
+            src="../img/DIAGRAMA DE FLUJO DEL SEGUIMIENTO Y CONTROL AL PLAN OPERATIVO ANUAL (POA).png"
+            class="img"
+            width="2300"
+            alt="GAD"
+          />
+        </div>  
+        <div class="modal-footer">
+          <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#PRESUPUESTO"
+            >
+              Seguimiento y control al presupuesto
+            </button>
+          <a href="/archivo/MATRIZ DE SEGUIMIENTO Y CONTROL AL PRESUPUESTO Y POA (2).xlsx" class="btn btn-success" download="MATRIZ DE SEGUIMIENTO Y CONTROL AL PRESUPUESTO Y POA.xlsx">Descargar Anexo (XLSX)</a>
+          <a href="/html/AnexoPoa.html"
+          ><button type="button" class="btn btn-success">
+            Anexos
+          </button></a>
+          <button
+            type="button"
+            class="btn btn-danger"
+            data-bs-dismiss="modal"
+          >
+            Cerrar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="modal fade modal-dialog-scrollable"
+    id="PRESUPUESTO"
+    data-bs-backdrop="static"
+    data-bs-keyboard="false"
+    tabindex="-1"
+    aria-labelledby="staticBackdropLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">
+            Seguimiento y control al presupuesto
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <img
+            src="../img/DIAGRAMA DE FLUJO DEL SEGUIMIENTO Y CONTROL AL PRESUPUESTO.png"
+            class="img"
+            width="2250"
+            alt="GAD"
+          />
+        </div>
+        <div class="modal-footer">
+          <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#POA"
+            >
+            Seguimiento y control al Plan Operativo Anual (POA)
+            </button>
+          
+          <a href="/archivo/MATRIZ DE SEGUIMIENTO Y CONTROL AL PRESUPUESTO Y POA (2).xlsx" class="btn btn-success" download="MATRIZ DE SEGUIMIENTO Y CONTROL AL PRESUPUESTO Y POA.xlsx">Descargar Anexo (XLSX)</a>
+          <a href="/html/AnexoPoa.html"
+            ><button type="button" class="btn btn-success">
+              Anexos
+            </button></a>
+          <button
+            type="button"
+            class="btn btn-danger"
+            data-bs-dismiss="modal"
+          >
+            Cerrar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="riesgo"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Administración del riesgo
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/FLUJOGRAMA ADMINISTRACION DE RIESGOS.png"
+              class="img"
+              width="2000"
+              alt="GAD"
+            />
+          </div>
+          <div class="modal-footer">
+            <a href="/archivo/MATRIZ DE ADMINISTRACIÓN DEL RIESGO.xlsx" class="btn btn-primary" download="MATRIZ DE ADMINISTRACIÓN DEL RIESGO.xlsx">Descargar Anexo (XLSX)</a>
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="mitigacion"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Plan de mitigación de riesgos
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/PLAN DE MITIGACIÓN DE RIESGOS.png"
+              class="img-fluid"
+              alt="GAD"
+            />
+          </div>
+          <div class="modal-footer">
+            <a href="/archivo/PROPUESTA_PLAN DE MITIGACIÓN DE RIESGOS.xlsx" class="btn btn-primary" download="PROPUESTA_PLAN DE MITIGACIÓN DE RIESGOS.xlsx">Descargar Anexo (XLSX)</a>
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="activos"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Compra de bienes y servicios
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/Flujograma de procesos de compra de bienes y servicios.png"
+              class="img"
+              width="2300"
+              alt="GAD"
+            />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="informacion"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Acceso a la información
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/FLUJOGRAMA_SISTEMAS DE INFORMACIaN.png"
+              class="img-fluid"
+              alt="GAD"
+            />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="indicadores"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Aplicación de indicadores de gestión
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/KPI.png"
+              class="img"
+              width="2000"
+              alt="GAD"
+            />
+          </div>
+          <div class="modal-footer">
+            <a href="/archivo/TESIS ANEXO (1).xlsx" class="btn btn-primary" download="ANEXO KPI.xls">Descargar Anexo (XLSX)</a>
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="personal"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Control del personal
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/Control del personal por Timer.png"
+              class="img-fluid"
+              alt="GAD"
+            />
+          </div>
+          <div class="modal-footer">
+            <a href="/archivo/PROPUESTA DE RELOJ DE CONTROL DE ASISTENCIA.xlsm" class="btn btn-primary" download="PROPUESTA DE RELOJ DE CONTROL DE ASISTENCIA.xlsm">Descargar Anexo (XLSX)</a>
+            <a href="/html/AnexoControlPersonal.html"
+              ><button type="button" class="btn btn-success">
+                Anexos
+              </button></a
+            >
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="bancarios"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Proceso de conciliaciones bancarias
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/FLUJOGRAMA PROCESO DE CONCILIACIONES BANCARIAS.png"
+              class="img-fluid"
+              alt="GAD"
+            />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="obligaciones"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Cronograma de vencimiento de obligaciones
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/CRONOGRAMA DE VENCIMIENTO.png"
+              class="img-fluid"
+              alt="GAD"
+            />
+          </div>
+
+          <div class="modal-footer">
+            <a href="/archivo/CRONOGRAMA DE VENCIMIENTO_APLICACIÓN (1) (1).xlsm " class="btn btn-primary" download="CRONOGRAMA DE VENCIMIENTO_APLICACIÓN.xlsm">Descargar Anexo (XLSX)</a>
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="autorizacion"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Niveles de autorización
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/FLUJOGRAMA NIVELES DE AUTORIZACIÓN.jpeg"
+              class="img-fluid"
+              alt="GAD"
+              width="2500"
+            />
+          </div>
+
+          <div class="modal-footer">
+            <a href="/html/AnexoNivelesAutorizacion.html"
+              ><button type="button" class="btn btn-success">
+                Anexos
+              </button></a
+            >
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="conservacion"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Políticas de conservación de documentos
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/Póliticas de conservación de archivo.png"
+              class="img-fluid"
+              alt="GAD"
+            />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#SubConservacion"
+            >
+              Subproceso
+            </button>
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="SubConservacion"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Subproceso
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/Póliticas de conservación de archivo_sub.png"
+              class="img-fluid"
+              alt="GAD"
+            />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="operaciones"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Procedimiento del registro contable de las operaciones
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/Flujograma_Registro contable.png"
+              class="img-fluid"
+              alt="GAD"
+            />
+          </div>
+
+          <div class="modal-footer">
+            <a href="/html/AnexoRegistroContrable.html"
+              ><button type="button" class="btn btn-success">
+                Anexos
+              </button></a
+            >
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="supervicion"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Supervisión de procesos
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/Supervisión de procesos.png"
+              class="img-fluid"
+              alt="GAD"
+            />
+          </div>
+
+          <div class="modal-footer">
+            
+            <a href="/html/AnexpSupervicionProceso.html"
+              ><button type="button" class="btn btn-success">
+                Anexos
+              </button></a
+            >
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="web"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Comunicación a través de la página web
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/Comunicación a través de la página web.png"
+              class="img-fluid"
+              alt="GAD"
+            />
+          </div>
+
+          <div class="modal-footer">
+            <a href="/html/AnexoComunicacionWeb.html"
+              ><button type="button" class="btn btn-success">
+                Anexos
+              </button></a
+            >
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="oficiales"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Creación de correos institucionales
+            </h5>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#oficiales2"
+            >
+              Siguiente
+            </button>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/Flujograma de Comunicación Interna-Correo electronico.jpg"
+              class="img"
+              width="2000"
+              alt="GAD"
+            />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#quipux"
+            >
+              Implantación del sistema documental Quipux
+            </button>
+            <a href="/html/AnexoComunicacionOficiales.html"
+              ><button type="button" class="btn btn-success">
+                Anexos
+              </button></a
+            >
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="oficiales2"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Creación de correos institucionales
+            </h5>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#oficiales"
+            >
+              Anterior
+            </button>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/oficiales2.jpg"
+              class="img"
+              width="2000"
+              alt="GAD"
+            />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#quipux"
+            >
+              Implantación del sistema documental Quipux
+            </button>
+            <a href="/html/AnexoComunicacionOficiales.html"
+              ><button type="button" class="btn btn-success">
+                Anexos
+              </button></a
+            >
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="quipux"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Implantación del sistema documental Quipux
+            </h5>
+            <div>
+              <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#quipux2"
+            >
+              Siguiente
+            </button>
+            </div>
+            
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/Flujograma de Comunicación Interna-Quipux.jpg"
+              class="img"
+              width="2000"
+              alt="GAD"
+            />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#oficiales"
+            >
+              Creación de correos institucionales
+            </button>
+            <a href="/html/AnexoComunicacionOficiales.html"
+              ><button type="button" class="btn btn-success">
+                Anexos
+              </button></a
+            >
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="quipux2"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Implantación del sistema documental Quipux
+            </h5>
+            <div>
+              <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#quipux"
+            >
+              Anterior
+            </button>
+            </div>
+            
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/quipux2.jpg"
+              class="img"
+              width="2000"
+              alt="GAD"
+            />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#oficiales"
+            >
+              Creación de correos institucionales
+            </button>
+            <a href="/html/AnexoComunicacionOficiales.html"
+              ><button type="button" class="btn btn-success">
+                Anexos
+              </button></a
+            >
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-dialog-scrollable"
+      id="anteriores"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Seguimiento a evaluaciones anteriores
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="../img/FLUJOGRAMA AL SEGUIMIENTO A EVALUACIONES ANTERIORES.jpg"
+              class="img-fluid"
+              alt="GAD"
+            />
+          </div>
+          <div class="modal-footer">
+            <a href="/archivo/MATRIZ NIVEL DE SEGUIMIENTO A EVALUACIONES ANTERIORES.xlsx" class="btn btn-primary" download="MATRIZ NIVEL DE SEGUIMIENTO A EVALUACIONES ANTERIORES.xlsx">Descargar Anexo (XLSX)</a>
+            <a href="/html/AnexoSeguimientoAnteriores.html"
+              ><button type="button" class="btn btn-success">
+                Anexos
+              </button></a
+            >
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div id="ultimo"></div>
+
+    
+  </body>
+</html>
